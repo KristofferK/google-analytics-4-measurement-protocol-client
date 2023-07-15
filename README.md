@@ -33,7 +33,7 @@ You will need to replace API_SECRET, MEASUREMENT_ID, and CLIENT_ID with your val
 * Api secret can be generated at: Admin > Data Streams > choose your stream > Measurement Protocol > Create
 * Measurement Id can be found at: Admin > Data Streams > choose your stream > Measurement ID
 * Client id must be fetched on client side using:
-```
+```js
 gtag('get', 'UA-XXXXXXXX-Y', 'client_id', (clientId) => {
   console.log(clientId);
 });
