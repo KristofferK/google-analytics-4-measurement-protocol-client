@@ -1,5 +1,5 @@
 # google-analytics-measurement-protocol-client
-Async wrapper around Google Analytics Measurement Protocol for Google Analytics 4 implemented in .NET.
+Async wrapper around Google Analytics Measurement Protocol for Google Analytics 4 implemented in .NET Standard, to support both .NET Framework, .NET Core and .NET 5+.
 
 ## Example usage
 ```cs
