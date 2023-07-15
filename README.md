@@ -1,15 +1,15 @@
 # google-analytics-measurement-protocol-client
-Async wrapper around Google Analytics Measurement Protocol for Google Analytics 4 implemented in .NET.
+Async wrapper around Google Analytics Measurement Protocol for Google Analytics 4 implemented in .NET Standard, to support both .NET Framework, .NET Core and .NET 5+.
 
 ## Example usage
 ```cs
-using GoogleAnalytics4MeasurementProtocol;
+using GoogleAnalytics4MeasurementProtocol.Client;
 
-const string API_SECRET = "A11aAa1AAAAAA-aaaAAaAa";
-const string MEASUREMENT_ID = "G-P1a111AA1A";
+const string API_SECRET = "A11aAa1AAAAAA-aaaAAaAa"; // Admin > Data Streams > choose your stream > Measurement Protocol > Create
+const string MEASUREMENT_ID = "G-P1a111AA1A"; // Admin > Data Streams > choose your stream > Measurement ID
 
-const string CLIENT_ID = "1111111111.2222222222";
-const string USER_ID = "40";
+const string CLIENT_ID = "1111111111.2222222222"; // Must be fetch from client side
+const string USER_ID = "40"; // Id of the internal user
 
 object[] events = new[]
 {
