@@ -3,7 +3,7 @@ Async wrapper around Google Analytics Measurement Protocol for Google Analytics 
 
 ## Example usage
 ```cs
-using GoogleAnalyticsMeasurementProtocol;
+using GoogleAnalytics4MeasurementProtocol;
 
 const string API_SECRET = "A11aAa1AAAAAA-aaaAAaAa";
 const string MEASUREMENT_ID = "G-P1a111AA1A";
