@@ -38,3 +38,5 @@ gtag('get', 'UA-XXXXXXXX-Y', 'client_id', (clientId) => {
   console.log(clientId);
 });
 ```
+
+For now the events is just a object[], I intend to implement classes representing the supported events. Until then, the supported events can be found at https://developers.google.com/analytics/devguides/collection/protocol/ga4/reference/events
