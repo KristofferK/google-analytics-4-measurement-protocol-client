@@ -2,6 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Google Analytics 4 Measurement Protocol</Title>
+    <PackageId>GoogleAnalytics4MeasurementProtocol.Client</PackageId>
+    <RepositoryUrl>https://github.com/KristofferK/google-analytics-4-measurement-protocol-client</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/KristofferK/google-analytics-4-measurement-protocol-client</PackageProjectUrl>
+    <Authors>https://github.com/KristofferK</Authors>
+    <Description>Async wrapper around Google Analytics Measurement Protocol for Google Analytics 4</Description>
+    <PackageTags>Google Analytics 4; Measurement Protocol; Client; Wrapper</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
